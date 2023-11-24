@@ -1,0 +1,63 @@
+body {
+    background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-repeat: no-repeat;
+    background-size: fixed;
+    margin: auto;
+    padding: 10px;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Jomhuria', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Questrial', sans-serif;
+    color: aliceblue;
+
+}
+
+:root {
+    --mainColor : #eeeeeebe;
+    --addtionalColor :  rgba(83, 126, 207, 0.377);
+    --act :  rgba(75, 107, 167, 0.377);
+}
+
+h1 {
+    text-align: center;
+}
+
+#name , #Email , #age , .select{
+    border: transparent;
+    width: 100%;
+    height: 25px;
+}
+
+.parent {
+    border: 5px solid transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);/**/
+    padding: 20px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: var(--act);
+    width: 25%;
+    background-size: fixed;
+}
+
+#name , #Email , #age , .select ,#txarea :focus {
+    border-color:  rgba(83, 126, 207, 0.377);
+    outline: none;
+}
+
+#submit {
+    text-align: center;
+    background-color: rgb(200, 204, 207);
+    width: 100px;
+    font-size: bold;
+    border: 0px;
+    border-radius: 10px;
+    position: relative;
+    top: 40%;
+    left: 40%;
+    height: 30px;
+    cursor: pointer;
+    color:  rgba(57, 106, 197, 0.733);
+}

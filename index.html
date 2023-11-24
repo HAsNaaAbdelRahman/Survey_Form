@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Jomhuria&family=Open+Sans:wght@300&family=Pacifico&family=Questrial&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--  -->
+    <div class="parent">
+    <form action="">
+        <div class="text">
+        <label for="name">Name</label><br><br>
+        <input type="text" id = "name" placeholder="Enter Your Name"><br><br>
+
+        <label for="Email">Email</label><br><br>
+        <input type="text" id = "Email" placeholder="Enter Your Email"><br><br>
+
+        <label for="age">Age</label><br><br>
+        <input type="text" id = "age" placeholder="Enter Your Age"><br><br>
+    </div>
+
+        <!--  -->
+        <div>
+        <label>Which Option Describe You?</label><br><br>
+
+        <select class="select">
+            <option value="student">Student</option>
+            <option value="intern">Intern</option>
+            <option value="professional">Professional</option>
+            <option value="other">Other</option>
+        </select>
+        <br><br>
+    </div>
+    <br>
+<!--  -->
+    <div class="radio">
+            <label> Would you recommend GeeksforGeeks to a friend?</label><br><br>
+            <input type="radio" id="re1" name="recommend">
+            <label for="re1">Yes</label><br>
+            <input type="radio" id="re2"  name="recommend">
+            <label for="re2"> No</label><br>
+            <input type="radio" id="re3"  name="recommend">
+            <label for="re3">Maybe </label><br>
+    </div><br><br>
+        <!--  -->
+    <div class="checkbox">
+        <label>Languages and Frameworks known 
+            <small>(Check all that apply)</small>
+        </label>
+        <br><br>
+
+        <input type="checkbox" id="re11"  name="inp">
+        <label for="re11">C</label><br>
+        <input type="checkbox" id="re22"  name="inp">
+        <label for="re22">C++</label><br>
+        <input type="checkbox" id="re33"  name="inp">
+        <label for="re33">Java </label><br>
+        <input type="checkbox" id="re44"  name="inp">
+        <label for="re44">C#</label><br>
+        <input type="checkbox" id="re55"  name="inp">
+        <label for="re55">Python</label><br>
+        <input type="checkbox" id="re66"  name="inp">
+        <label for="re66">Java Script</label><br>
+        <input type="checkbox" id="re77"  name="inp">
+        <label for="re77">React</label><br>
+        <input type="checkbox" id="re88"  name="inp">
+        <label for="re88">Djano</label><br>
+        <input type="checkbox" id="re99"  name="inp">
+        <label for="re99">Spring</label><br>
+        <br><br>
+    </div>
+            <!--  -->
+    <div class="textarea">
+        <label>Any comments or suggestions</label><br><br>
+        <textarea name="" id="txarea" cols="40" rows="5" placeholder="You can write your comments here ...."></textarea>
+    </div><br>
+
+    <input type="submit" value="Submit" id = "submit">
+    </form>
+</div>
+</body>
+</html>
